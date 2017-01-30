@@ -1,31 +1,35 @@
-@font-face{ 
-	font-family: 'ArchivoNarrowBold';
-	src:url(../fonts/ArchivoNarrow-Bold.otf);
+@font-face {
+    font-family: 'ArchivoNarrowBold';
+    src: url(../fonts/ArchivoNarrow-Bold.otf);
 }
-@font-face{ 
-	font-family: 'ArchivoNarrowRegular';
-	src:url(../fonts/ArchivoNarrow-Regular.otf);
+
+@font-face {
+    font-family: 'ArchivoNarrowRegular';
+    src: url(../fonts/ArchivoNarrow-Regular.otf);
 }
-body{
-    background:#F28019;
-    font-family: 'ArchivoNarrowRegular', Arial, sans-serif; 
+
+body {
+    background: #0099CC;
+    font-family: 'ArchivoNarrowRegular', Arial, sans-serif;
 }
-.container{
+
+.container {
     max-width: 1140px;
     display: block;
     margin: 0 auto;
 }
-header img{
+
+header img {
     margin: 1em auto;
 }
 
-#titulo{
-    background: #475136 url(../images/patron-14.png);
+#titulo {
+    background: #000033 url(../images/patron-14.png);
     background-size: 400px auto;
     text-align: center;
 }
 
-#titulo h1{
+#titulo h1 {
     font-family: 'ArchivoNarrowBold', Arial, sans-serif;
     color: #FFF;
     font-size: 26px;
@@ -36,22 +40,30 @@ header img{
 }
 
 #titulo h1 strong {
-    color: #F28019;
+    color: #0099CC;
 }
 
 #titulo button {
-    background: #F28019;
+    background: #0099CC;
     color: #FFF;
     border: 0;
     border-radius: 20px;
-    font-size: 14px; 
+    font-size: 14px;
     padding: .8em 2em;
     margin-bottom: 4em;
 }
 
-@media only screen and (min-width:768px){
+#descripcion {
+    background: url(file:///C:/Users/umvirtual1/Desktop/Jessye/Finanzas/bkg-finanzas-retina.jpg
+)fixed;
+    background-size: cover;
+    text-align: center;
+    height: 60vh;
+}
+
+@media only screen and (min-width:768px) {
     /*Aqui van todos los estilos para tablet*/
-    #titulo h1{
+    #titulo h1 {
         font-size: 32px;
     }
     #titulo button {
@@ -60,12 +72,12 @@ header img{
     /*Aqui terminan todos los estilos para tablet*/
 }
 
-@media only screen and (min-width:1140px){
+@media only screen and (min-width:1140px) {
     /*Aqui van todos los estilos para laptop*/
-    #titulo h1{
+    #titulo h1 {
         font-size: 60px;
     }
-      #titulo button {
+    #titulo button {
         font-size: 25px;
         margin-bottom: 8em;
     }
