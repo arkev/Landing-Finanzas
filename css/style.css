@@ -54,11 +54,71 @@ header img {
 }
 
 #descripcion {
-    background: url(file:///C:/Users/umvirtual1/Desktop/Jessye/Finanzas/bkg-finanzas-retina.jpg
-)fixed;
+    background: url(../images/bkg-finanzas-retina.jpg)fixed;
     background-size: cover;
-    text-align: center;
     height: 60vh;
+    font-size: 26px;
+    text-align: center;
+    color:#FFF;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#letras {
+    display: flex;
+    width: 80%;
+    height: auto;
+    padding: 2%;
+    background: rgba(0,0,56, 0.5);
+
+}
+    
+
+#beneficios h2{
+    text-align: center;
+    font-family: 'ArchivoNarrowBold', Arial, sans-serif;
+    color: #FFF;
+    font-size: 55px;
+    margin: auto 5;
+    display: inline-block;
+    line-height: 1.3em;
+    width: 100%;
+}
+
+#beneficios h2 strong{
+    color:#000038;
+
+}
+#info {
+    background-color: #000038;
+    padding: 90 auto  ;
+    color: #FFF;
+}
+#info h3{
+    text-align: center;
+    font-family:'ArchivoNarrowBold', Arial, sans-serif;
+    color: #FFF; 
+}
+
+
+#testimonios h2{
+    text-align:center;
+    font-family: 'ArchivoNarrowBold', Arial, sans-serif;
+    color: #FFF;
+    font-size: 80px;
+}
+
+#ejemplos {
+    background-color: #FFF;
+    padding: auto;
+}
+/*empieza Formulario*/ 
+
+#formulario h2{
+    text-align:center;
+
 }
 
 @media only screen and (min-width:768px) {
