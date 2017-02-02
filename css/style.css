@@ -113,12 +113,46 @@ header img {
 #ejemplos {
     background-color: #FFF;
     padding: auto;
+
 }
 /*empieza Formulario*/ 
 
 #formulario h2{
-    text-align:center;
+    color: #000038;
+}
 
+#formulario h3{
+    color: #5a98cf;
+    font-size: 35px;
+}
+
+#personas h3{
+    color: #FFF;
+    font-size: 25px;
+}
+#personas h4{
+    font-size: 18px
+
+}
+#personas {
+    background: #000038;
+    color: #FFF;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: .8em 2em;
+    margin: 4em;
+}
+
+#cuadro {
+    background-color: #000038;
+    border-radius: 20px;
+    padding: .8em 2em;
+    display: flex;
+    height: auto;    
+}
+
+#dato {
+    color:#FFF;
 }
 
 @media only screen and (min-width:768px) {
