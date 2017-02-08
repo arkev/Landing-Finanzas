@@ -135,7 +135,7 @@ header img {
 
 }
 #personas {
-    background: #000038;
+    background-color: #000038;
     color: #FFF;
     border-radius: 20px;
     font-size: 14px;
@@ -145,15 +145,48 @@ header img {
 
 #cuadro {
     background-color: #000038;
-    border-radius: 20px;
-    padding: .8em 2em;
-    display: flex;
-    height: auto;    
+    padding: .2em  2em;
+    color: #FFF;
+    border: 0;
+    border-radius: 35px;
+    font-size: 17px;
 }
 
 #dato {
     color:#FFF;
+    display:inline-flex;
+    padding-left: .2em .2em;
+    position: center;
+
 }
+
+#anuncio spam {
+    color: #5a98cf;
+}
+
+#anuncio {
+    color: #000038
+}
+#bajo {
+    background-color: #5a98cf;
+}
+
+#clic button {
+     background: #0099CC;
+    color: #FFF;
+    border: 0;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: .8em 2em;
+    margin-bottom: 4em;
+    margin: 2em;  
+}
+
+#relleno {
+    padding: 2em,
+
+}
+
 
 @media only screen and (min-width:768px) {
     /*Aqui van todos los estilos para tablet*/
