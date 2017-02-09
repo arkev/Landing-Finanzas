@@ -80,7 +80,7 @@ header img {
     text-align: center;
     font-family: 'ArchivoNarrowBold', Arial, sans-serif;
     color: #FFF;
-    font-size: 55px;
+    font-size: 30px;
     margin: auto 5;
     display: inline-block;
     line-height: 1.3em;
@@ -187,6 +187,15 @@ header img {
 
 }
 
+#beneficios button{
+    background: #000038;
+    border-radius: 100%;
+    padding: 2em 2em;
+    margin-bottom: 4em;
+  
+
+}
+
 
 @media only screen and (min-width:768px) {
     /*Aqui van todos los estilos para tablet*/
@@ -195,6 +204,14 @@ header img {
     }
     #titulo button {
         font-size: 20px;
+    }
+
+    #beneficios h2{
+        font-size: 40px;
+    }
+    
+    #testimonios h2{
+        font-size: 40px;
     }
     /*Aqui terminan todos los estilos para tablet*/
 }
@@ -207,6 +224,14 @@ header img {
     #titulo button {
         font-size: 25px;
         margin-bottom: 8em;
+    }
+
+    #beneficios h2 {
+        font-size: 70px;
+    }
+
+    #testimonios h2{
+        font-size: 90px;
     }
     /*Aqui terminan todos los estilos para laptop*/
 }
