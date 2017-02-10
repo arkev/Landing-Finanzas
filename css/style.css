@@ -74,7 +74,10 @@ header img {
     background: rgba(0,0,56, 0.5);
 
 }
-    
+  
+#beneficios {
+    position: relative;
+}  
 
 #beneficios h2{
     text-align: center;
@@ -187,13 +190,18 @@ header img {
 
 }
 
-#beneficios button{
-    background: #000038;
+#beneficios .bolita{
+    position: absolute;
     border-radius: 100%;
-    padding: 2em 2em;
     margin-bottom: 4em;
-  
-
+    border: 1px solid;
+    width: 10Vw;
+    height: 10Vw;
+    display: block;
+    left: 45%;
+    bottom: -40%;
+    margin: 0;
+    
 }
 
 
