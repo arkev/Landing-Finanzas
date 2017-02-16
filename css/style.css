@@ -32,7 +32,7 @@ header img {
 #titulo h1 {
     font-family: 'ArchivoNarrowBold', Arial, sans-serif;
     color: #FFF;
-    font-size: 26px;
+    font-size: 50px;
     margin: 2em auto 1em;
     display: inline-block;
     line-height: 1.3em;
@@ -47,7 +47,7 @@ header img {
     background: #0099CC;
     color: #FFF;
     border: 0;
-    border-radius: 20px;
+    border-radius: 35px;
     font-size: 14px;
     padding: .8em 2em;
     margin-bottom: 4em;
@@ -68,7 +68,7 @@ header img {
 
 #letras {
     display: flex;
-    width: 80%;
+    width: 55rem;
     height: auto;
     padding: 2%;
     background: rgba(0,0,56, 0.5);
@@ -83,8 +83,8 @@ header img {
     text-align: center;
     font-family: 'ArchivoNarrowBold', Arial, sans-serif;
     color: #FFF;
-    font-size: 30px;
-    margin: auto 5;
+    font-size: 70px;
+    margin: 56px auto;
     display: inline-block;
     line-height: 1.3em;
     width: 100%;
@@ -103,6 +103,7 @@ header img {
     text-align: center;
     font-family:'ArchivoNarrowBold', Arial, sans-serif;
     color: #FFF; 
+    margin: 25
 }
 
 
@@ -194,28 +195,28 @@ header img {
     position: absolute;
     border-radius: 100%;
     margin-bottom: 4em;
-    border: 1px solid;
-    width: 10Vw;
-    height: 10Vw;
+    width: 10vw;
+    height: 10vw;
     display: block;
     left: 45%;
-    bottom: -40%;
+    bottom: -5vw;
     margin: 0;
-    
+    background: #000038;
+    z-index: -1;    
 }
 
 
 @media only screen and (min-width:768px) {
     /*Aqui van todos los estilos para tablet*/
     #titulo h1 {
-        font-size: 32px;
+        font-size: 50px;
     }
     #titulo button {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     #beneficios h2{
-        font-size: 40px;
+        font-size: 70px;
     }
     
     #testimonios h2{
