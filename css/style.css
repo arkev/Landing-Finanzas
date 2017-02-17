@@ -56,21 +56,18 @@ header img {
 #descripcion {
     background: url(../images/bkg-finanzas-retina.jpg)fixed;
     background-size: cover;
-    height: 60vh;
+    height: 68vh;
     font-size: 26px;
-    text-align: center;
     color:#FFF;
-    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 #letras {
     display: flex;
-    width: 55rem;
     height: auto;
-    padding: 2%;
     background: rgba(0,0,56, 0.5);
 
 }
@@ -112,6 +109,9 @@ header img {
     font-family: 'ArchivoNarrowBold', Arial, sans-serif;
     color: #FFF;
     font-size: 80px;
+    margin: 90px;
+
+    
 }
 
 #ejemplos {
@@ -191,7 +191,7 @@ header img {
 
 }
 
-#beneficios .bolita{
+.bolita{
     position: absolute;
     border-radius: 100%;
     margin-bottom: 4em;
@@ -204,6 +204,21 @@ header img {
     background: #000038;
     z-index: -1;    
 }
+
+#testimonio circulo {
+    position: absolute;
+    border-radius: 100%;
+    margin-bottom: 4em;
+    width: 10vw;
+    height: 10vw;
+    display: block;
+    left: 45%;
+    bottom: -5vw;
+    margin: 0;
+    background: #90152;
+    z-index: -1;    
+}
+
 
 
 @media only screen and (min-width:768px) {
@@ -221,6 +236,8 @@ header img {
     
     #testimonios h2{
         font-size: 40px;
+
+    #letras 
     }
     /*Aqui terminan todos los estilos para tablet*/
 }
