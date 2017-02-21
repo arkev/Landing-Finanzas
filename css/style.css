@@ -19,8 +19,18 @@ body {
     margin: 0 auto;
 }
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.box {
+    height: 30px
+    height: 10%;
+}
+
 header img {
-    margin: 1em auto;
+    margin: 2em auto;
 }
 
 #titulo {
@@ -32,11 +42,11 @@ header img {
 #titulo h1 {
     font-family: 'ArchivoNarrowBold', Arial, sans-serif;
     color: #FFF;
-    font-size: 50px;
-    margin: 2em auto 1em;
+    font-size: 45px;
+    margin: 2em auto 2em;
     display: inline-block;
     line-height: 1.3em;
-    width: 100%;
+    width: 90%;
 }
 
 #titulo h1 strong {
@@ -48,27 +58,29 @@ header img {
     color: #FFF;
     border: 0;
     border-radius: 35px;
-    font-size: 14px;
+    font-size: 20px;
     padding: .8em 2em;
-    margin-bottom: 4em;
+    margin-bottom: 2.3em;
+
 }
 
 #descripcion {
     background: url(../images/bkg-finanzas-retina.jpg)fixed;
     background-size: cover;
     height: 68vh;
-    font-size: 26px;
+    font-size: 25px;
     color:#FFF;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+
 }
 
 #letras {
     display: flex;
-    height: auto;
     background: rgba(0,0,56, 0.5);
+    height: 60%;
 
 }
   
@@ -219,6 +231,21 @@ header img {
     z-index: -1;    
 }
 
+
+
+.circulo{
+    position: absolute;
+    border-radius: 100%;
+    margin-bottom: 4em;
+    width: 10vw;
+    height: 10vw;
+    display: block;
+    left: 45%;
+    bottom: -5vw;
+    margin: 0;
+    background: #000038;
+    z-index: -1;    
+}
 
 
 @media only screen and (min-width:768px) {
