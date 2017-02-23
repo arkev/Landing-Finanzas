@@ -63,7 +63,6 @@ header img {
     background: url(../images/bkg-finanzas-retina.jpg)fixed;
     background-size: cover;
     height: 68vh;
-    font-size: 25px;
     color:#FFF;
     display: flex;
     align-items: center;
@@ -76,14 +75,12 @@ header img {
     display: flex;
     background: rgba(0,0,56, 0.5);
     height: 45%;
-    font-size: 30px
 
 }
 
 #letras p {
-    font-size: 20px;
+    padding:8px;
 }
-  
 #beneficios {
     position: relative;
 }  
@@ -263,8 +260,7 @@ header img {
 
 @media only screen and (min-width:768px) {
     /*Aqui van todos los estilos para tablet*/
-    #titulo h1 {
-        font-size: 50px;
+    
     }
     #titulo button {
         font-size: 30px;
@@ -278,9 +274,12 @@ header img {
         font-size: 40px;
     }
 
-    #letras p {
-        font-size:25px;
+    #titulo h1{
+        font-size: 50px;
+    }
 
+    #letras p{
+        font-size: 2vw;
     }
     /*Aqui terminan todos los estilos para tablet*/
 }
@@ -302,10 +301,9 @@ header img {
 
     #testimonios h2{
         font-size: 90px;
-    }
+    } 
 
     #letras p {
-        font-size:30px;
-    }
-    /*Aqui terminan todos los estilos para laptop*/
+        font-size: 2.8vw;
+        }   /*Aqui terminan todos los estilos para laptop*/
 }
