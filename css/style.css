@@ -71,16 +71,14 @@ header img {
 
 }
 
-#letras {
+#descripcion p{
     display: flex;
     background: rgba(0,0,56, 0.5);
     height: 45%;
+    padding:30px;
 
 }
 
-#letras p {
-    padding:8px;
-}
 #beneficios {
     position: relative;
 }  
@@ -278,9 +276,17 @@ header img {
         font-size: 50px;
     }
 
-    #letras p{
+    #descripcion p{
         font-size: 2vw;
     }
+
+    #descripcion {
+        height: 68vh;
+
+    }
+
+    
+
     /*Aqui terminan todos los estilos para tablet*/
 }
 
@@ -303,7 +309,11 @@ header img {
         font-size: 90px;
     } 
 
-    #letras p {
+    #descripcion p {
         font-size: 2.8vw;
-        }   /*Aqui terminan todos los estilos para laptop*/
+        } 
+     #descripcion {
+        height: 68vh;
+    }
+      /*Aqui terminan todos los estilos para laptop*/
 }
