@@ -79,11 +79,11 @@ header img {
 
 }
 
-#beneficios {
+#beneficios, #testimonios {
     position: relative;
 }  
 
-#beneficios h2{
+#beneficios h2, #testimonios h2{
     text-align: center;
     font-family: 'ArchivoNarrowBold', Arial, sans-serif;
     color: #FFF;
@@ -102,6 +102,7 @@ header img {
     background-color: #000038;
     padding: 90 auto  ;
     color: #FFF;
+    position: relative;
 }
 #info h3{
     text-align: center;
@@ -110,20 +111,10 @@ header img {
     margin: 25
 }
 
-
-#testimonios h2{
-    text-align:center;
-    font-family: 'ArchivoNarrowBold', Arial, sans-serif;
-    color: #FFF;
-    font-size: 80px;
-    margin: 90px;
-
-    
-}
-
 #ejemplos {
     background-color: #FFF;
     padding: auto;
+    position: relative;
 
 }
 /*empieza Formulario*/ 
@@ -208,66 +199,29 @@ header img {
     left: 45%;
     bottom: -5vw;
     margin: 0;
-    background: #000038;
-    z-index: -1;    
+    max-width: 130px;
+    max-height: 130px;
 }
 
-#testimonio circulo {
-    position: absolute;
-    border-radius: 100%;
-    margin-bottom: 4em;
-    width: 10vw;
-    height: 10vw;
-    display: block;
-    left: 45%;
-    bottom: -5vw;
-    margin: 0;
-    background: #90152;
-    z-index: -1;    
+.azulMarino{
+    background-color:#000038;
+}
+.azulCielo{
+    background-color:#0099CC;
+}
+.blanca{
+    background-color:#FFF;
 }
 
-
-
-.circulo{
-    position: absolute;
-    border-radius: 100%;
-    margin-bottom: 4em;
-    width: 10vw;
-    height: 10vw;
-    display: block;
-    left: 45%;
-    bottom: -94vw;
-    margin: 0;
-    background: #0099cc;
-    z-index: ;    
-}
-
-.redondo {
-    position: absolute;
-    border-radius: 100%;
-    margin-bottom: 4em;
-    width: 10vw;
-    height: 10vw;
-    display: block;
-    left: 45%;
-    bottom: -116vw;
-    margin: 0;
-    background: #ffffff;
-    z-index:;
 
 
 @media only screen and (min-width:768px) {
     /*Aqui van todos los estilos para tablet*/
     
-    }
     #titulo button {
         font-size: 30px;
     }
 
-    #beneficios h2{
-        font-size: 70px;
-    }
-    
     #testimonios h2{
         font-size: 40px;
     }
@@ -284,8 +238,6 @@ header img {
         height: 68vh;
 
     }
-
-    
 
     /*Aqui terminan todos los estilos para tablet*/
 }
