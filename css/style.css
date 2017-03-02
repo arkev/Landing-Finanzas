@@ -25,7 +25,8 @@ body {
 }
 
 header img {
-    margin: 2em auto;
+    margin: 0.7em auto;
+    width: 100%;
 }
 
 #titulo {
@@ -217,6 +218,16 @@ header img {
 
 @media only screen and (min-width:768px) {
     /*Aqui van todos los estilos para tablet*/
+
+    img .box {
+        margin: 1.5em auto;
+        width: 50%;
+        height: 50%;
+    }
+
+    #titulo h1{
+        font-size: 30px;
+    }
     
     #titulo button {
         font-size: 30px;
