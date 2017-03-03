@@ -88,7 +88,7 @@ header img {
     text-align: center;
     font-family: 'ArchivoNarrowBold', Arial, sans-serif;
     color: #FFF;
-    font-size: 70px;
+    font-size: 62px;
     margin: 70px auto;
     display: inline-block;
     line-height: 1.3em;
@@ -216,7 +216,7 @@ header img {
 
 
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:800px) {
     /*Aqui van todos los estilos para tablet*/
 
     img .box {
@@ -234,7 +234,7 @@ header img {
     }
 
     #testimonios h2{
-        font-size: 40px;
+        font-size: 80px;
     }
 
     #titulo h1{
@@ -253,7 +253,7 @@ header img {
     /*Aqui terminan todos los estilos para tablet*/
 }
 
-@media only screen and (min-width:1140px) {
+@media only screen and (max-width: -width:1140px) {
     /*Aqui van todos los estilos para laptop*/
 
     #titulo h1 {
@@ -265,7 +265,7 @@ header img {
     }
 
     #beneficios h2 {
-        font-size: 70px;
+        font-size: 80px;
     }
 
     #testimonios h2{
