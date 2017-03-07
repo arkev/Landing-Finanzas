@@ -6,6 +6,7 @@
 @font-face {
     font-family: 'ArchivoNarrowRegular';
     src: url(../fonts/ArchivoNarrow-Regular.otf);
+    padding: 
 }
 
 body {
@@ -22,6 +23,11 @@ body {
 .row {
     margin-right: 0;
     margin-left: 0;
+}
+
+.box{
+    width: 100%;
+    margin: 4px 0;
 }
 
 header img {
@@ -216,13 +222,11 @@ header img {
 
 
 
-@media only screen and (min-width:800px) {
+@media only screen and (max-width:800px) {
     /*Aqui van todos los estilos para tablet*/
 
-    img .box {
-        margin: 1.5em auto;
-        width: 50%;
-        height: 50%;
+    .box {
+        margin:4px 0;
     }
 
     #titulo h1{
