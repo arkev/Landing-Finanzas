@@ -22,17 +22,14 @@ body {
 
 .row {
     margin-right: 0;
-    margin-left: 0;
+   
 }
 
-.box{
-    width: 100%;
-    margin: 4px 0;
-}
 
-header img {
-    margin: 0.7em auto;
-    width: 100%;
+header img{
+    margin: 4px auto;
+    width: 90%;
+    max-width: 420px;
 }
 
 #titulo {
@@ -44,10 +41,10 @@ header img {
 #titulo h1 {
     font-family: 'ArchivoNarrowBold', Arial, sans-serif;
     color: #FFF;
-    font-size: 45px;
-    margin: 2em auto 2em;
+    font-size: 32px;
+    margin: 1.5em auto 1em;
     display: inline-block;
-    line-height: 1.3em;
+    line-height: 1.2em;
     width: 90%;
 }
 
@@ -82,7 +79,8 @@ header img {
     display: flex;
     background: rgba(0,0,56, 0.5);
     height: 45%;
-    padding:30px;
+    padding:20px;
+    font-size: 5vw;
 
 }
 
@@ -128,11 +126,25 @@ header img {
 
 #formulario h2{
     color: #000038;
+    text-align: center;
+    text-align:center;
+    font-family:'ArchivoNarrowBold', Arial, sans-serif;
+    font-size: 62px;
+    margin: 70px auto;
+    display: inline-block;
+    line-height: 1.3em;
+    width: 100%
 }
 
 #formulario h3{
-    color: #5a98cf;
-    font-size: 35px;
+    text-align: center;
+    font-family: 'ArchivoNarrowBold', Arial, sans-serif;
+    color: #FFF;
+    font-size: 62px;
+    margin: 70px auto;
+    display: inline-block;
+    line-height: 1.3em;
+    width: 100%
 }
 
 #personas h3{
@@ -154,11 +166,12 @@ header img {
 
 #cuadro {
     background-color: #000038;
-    padding: .2em  2em;
+    padding: .5em 2em;
     color: #FFF;
     border: 0;
     border-radius: 35px;
     font-size: 17px;
+    margin: 55px;
 }
 
 #dato {
@@ -222,46 +235,37 @@ header img {
 
 
 
-@media only screen and (max-width:800px) {
+@media only screen and (min-width:768px) {
     /*Aqui van todos los estilos para tablet*/
 
-    .box {
-        margin:4px 0;
-    }
-
     #titulo h1{
-        font-size: 30px;
+        font-size: 45px;
     }
     
     #titulo button {
-        font-size: 30px;
+        font-size: 20px; 
     }
 
     #testimonios h2{
         font-size: 80px;
     }
 
-    #titulo h1{
-        font-size: 50px;
-    }
-
     #descripcion p{
-        font-size: 2vw;
+        font-size: vw;
     }
 
     #descripcion {
         height: 68vh;
 
     }
-
     /*Aqui terminan todos los estilos para tablet*/
 }
 
-@media only screen and (max-width: -width:1140px) {
+@media only screen and (min-width:1200px) {
     /*Aqui van todos los estilos para laptop*/
 
     #titulo h1 {
-        font-size: 60px;
+        font-size: 45px;
     }
     #titulo button {
         font-size: 25px;
@@ -277,7 +281,7 @@ header img {
     } 
 
     #descripcion p {
-        font-size: 2.8vw;
+        font-size: 5vw;
         } 
      #descripcion {
         height: 68vh;
