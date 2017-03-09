@@ -281,10 +281,24 @@ header img{
     } 
 
     #descripcion p {
-        font-size: 5vw;
+        font-size: 3vw;
         } 
      #descripcion {
         height: 68vh;
     }
+    #formulario h3{
+        font-family: 52px;
+        margin: auto;
+    }
+
+    #cuadro {
+        padding: ,8em 21,5em;
+        margin: 8em;
+    }
+    #img{
+        margin: 30px auto;
+        width: 90%;
+        max-width: 120px;
       /*Aqui terminan todos los estilos para laptop*/
+    }
 }
