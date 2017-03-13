@@ -124,24 +124,23 @@ header img{
 }
 /*empieza Formulario*/ 
 
-#formulario h2{
+#formulario h1{
     color: #000038;
     text-align: center;
-    text-align:center;
     font-family:'ArchivoNarrowBold', Arial, sans-serif;
     font-size: 62px;
-    margin: 70px auto;
+    margin: .4em auto;
     display: inline-block;
     line-height: 1.3em;
     width: 100%
 }
 
-#formulario h3{
+#formulario h2{
     text-align: center;
     font-family: 'ArchivoNarrowBold', Arial, sans-serif;
     color: #FFF;
-    font-size: 62px;
-    margin: 70px auto;
+    font-size: 35px;
+    margin: .1em auto;
     display: inline-block;
     line-height: 1.3em;
     width: 100%
@@ -166,12 +165,16 @@ header img{
 
 #cuadro {
     background-color: #000038;
-    padding: .5em 2em;
+    padding: 1em .1em;
     color: #FFF;
     border: 0;
     border-radius: 35px;
     font-size: 17px;
     margin: 55px;
+}
+
+.row{
+    text-align: center;
 }
 
 #dato {
@@ -183,11 +186,15 @@ header img{
 }
 
 #anuncio spam {
-    color: #5a98cf;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
 }
 
 #anuncio {
-    color: #000038
+    color: #000038;
+    text-align: center;
+    font-size: 20px;
 }
 #bajo {
     background-color: #5a98cf;
@@ -209,6 +216,12 @@ header img{
 
 }
 
+.box p{
+    margin: .2em;
+    font-size: 13px;
+}
+
+
 .bolita{
     position: absolute;
     border-radius: 100%;
@@ -221,6 +234,9 @@ header img{
     margin: 0;
     max-width: 130px;
     max-height: 130px;
+}
+img{
+    width: 25%
 }
 
 .azulMarino{
