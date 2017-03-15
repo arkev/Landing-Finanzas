@@ -18,13 +18,13 @@ body {
     max-width: 1140px;
     display: block;
     margin: 0 auto;
+    padding: 2em .8em;
 }
 
 .row {
-    margin-right: 0;
+    margin-right:0;
    
 }
-
 
 header img{
     margin: 4px auto;
@@ -45,7 +45,7 @@ header img{
     margin: 1.5em auto 1em;
     display: inline-block;
     line-height: 1.2em;
-    width: 90%;
+   
 }
 
 #titulo h1 strong {
@@ -79,7 +79,7 @@ header img{
     display: flex;
     background: rgba(0,0,56, 0.5);
     height: 45%;
-    padding:20px;
+    padding:9px;
     font-size: 5vw;
 
 }
@@ -113,13 +113,14 @@ header img{
     text-align: center;
     font-family:'ArchivoNarrowBold', Arial, sans-serif;
     color: #FFF; 
-    margin: 25
+    margin: .8px;
 }
 
 #ejemplos {
     background-color: #FFF;
     padding: auto;
     position: relative;
+    padding: 1em;
 
 }
 /*empieza Formulario*/ 
@@ -160,7 +161,7 @@ header img{
     border-radius: 20px;
     font-size: 14px;
     padding: .8em 2em;
-    margin: 4em;
+    margin: 1em;
 }
 
 #cuadro {
@@ -218,9 +219,10 @@ header img{
 
 .box p{
     margin: .2em;
-    font-size: 13px;
-}
+    font-size: 19px;
+   
 
+}
 
 .bolita{
     position: absolute;
@@ -236,7 +238,7 @@ header img{
     max-height: 130px;
 }
 img{
-    width: 25%
+    width: 20%
 }
 
 .azulMarino{
@@ -266,18 +268,35 @@ img{
         font-size: 80px;
     }
 
+    #testimonios{
+        padding: 2em;
+    }
+
     #descripcion p{
-        font-size: vw;
+        font-size: 3vw;
     }
 
     #descripcion {
         height: 68vh;
+    }
+
+    .bolita{
+        left: 45%;
+    }
+    
+    .box p{
+        padding: 1em;
+       } 
+
+
+    .img{
+        width: 10%;
 
     }
     /*Aqui terminan todos los estilos para tablet*/
 }
 
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width:1024px) {
     /*Aqui van todos los estilos para laptop*/
 
     #titulo h1 {
@@ -313,7 +332,7 @@ img{
     }
     #img{
         margin: 30px auto;
-        width: 90%;
+        width: 30%;
         max-width: 120px;
       /*Aqui terminan todos los estilos para laptop*/
     }
