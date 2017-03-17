@@ -21,10 +21,10 @@ body {
     padding: 2em .8em;
 }
 
-.row {
+/*.row {
     margin-right:0;
    
-}
+}*/
 
 header img{
     margin: 4px auto;
@@ -121,6 +121,7 @@ header img{
     padding: auto;
     position: relative;
     padding: 1em;
+    padding-bottom: 60px;
 
 }
 /*empieza Formulario*/ 
@@ -175,9 +176,9 @@ header img{
     
 }
 
-.row{
+/*.row{
     text-align: center;
-}
+}*/
 
 #dato {
     color:#FFF;
