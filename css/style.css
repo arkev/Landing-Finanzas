@@ -21,10 +21,10 @@ body {
     padding: 2em .8em;
 }
 
-/*.row {
+.row {
     margin-right:0;
    
-}*/
+}
 
 header img{
     margin: 4px auto;
@@ -130,10 +130,7 @@ header img{
     color: #000038;
     text-align: center;
     font-family:'ArchivoNarrowBold', Arial, sans-serif;
-    font-size: 62px;
-    margin: .9em auto;
-    display: inline-block;
-    line-height: 1.3em;
+    font-size: 60.5px;
     width: 100%
 }
 
@@ -142,9 +139,6 @@ header img{
     font-family: 'ArchivoNarrowBold', Arial, sans-serif;
     color: #FFF;
     font-size: 35px;
-    margin: .9em auto;
-    display: inline-block;
-    line-height: 1.3em;
     width: 100%
 }
 
@@ -176,9 +170,9 @@ header img{
     
 }
 
-/*.row{
+.row{
     text-align: center;
-}*/
+}
 
 #dato {
     color:#FFF;
@@ -191,7 +185,7 @@ header img{
 #anuncio spam {
     color: #fff;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #anuncio {
@@ -204,14 +198,15 @@ header img{
 }
 
 #clic button {
-     background: #0099CC;
+    background: #0099CC;
     color: #FFF;
     border: 0;
     border-radius: 20px;
-    font-size: 14px;
-    padding: .8em 2em;
-    margin-bottom: 4em;
-    margin: 2em;  
+    font-size: 16px;
+    padding: .8em 1em;
+    margin: .8em;
+    align-items: center;
+
 }
 
 #relleno {
@@ -221,7 +216,7 @@ header img{
 
 .box p{
     margin: .2em;
-    font-size: 19px;
+    font-size: 16px;
    
 
 }
@@ -251,6 +246,10 @@ img{
 }
 .blanca{
     background-color:#FFF;
+}
+
+#cajita{
+    text-align:center;
 }
 
 
@@ -295,6 +294,18 @@ img{
         width: 10%;
 
     }
+
+    .cajita{
+        align-content: center;
+    }
+    #cuadro
+    {
+        margin: 2em 10em;
+        padding: .8em 8em;
+        } 
+    footer img {
+        width: 10%;
+    }   
     /*Aqui terminan todos los estilos para tablet*/
 }
 
