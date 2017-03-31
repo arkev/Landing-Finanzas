@@ -18,13 +18,13 @@ body {
     max-width: 1140px;
     display: block;
     margin: 0 auto;
-    padding: 2em .8em;
 }
 
 .row {
     margin-right:0;
    
 }
+/*header*/
 
 header img{
     margin: 4px auto;
@@ -32,6 +32,10 @@ header img{
     max-width: 420px;
 }
 
+/*header*/
+
+
+/*titulo*/
 #titulo {
     background: #000033 url(../images/patron-14.png);
     background-size: 400px auto;
@@ -44,7 +48,7 @@ header img{
     font-size: 32px;
     margin: 1.5em auto 1em;
     display: inline-block;
-    line-height: 1.2em;
+    line-height: 1.2em;.
    
 }
 
@@ -60,9 +64,11 @@ header img{
     font-size: 20px;
     padding: .8em 2em;
     margin-bottom: 2.3em;
-
 }
+/*titulo*/
 
+
+/*descripción*/
 #descripcion {
     background: url(../images/bkg-finanzas-retina.jpg)fixed;
     background-size: cover;
@@ -81,9 +87,11 @@ header img{
     height: 45%;
     padding:9px;
     font-size: 5vw;
-
 }
+/*descripción*/
 
+
+/*pregunta y testimonio titulo*/
 #beneficios, #testimonios {
     position: relative;
 }  
@@ -101,11 +109,12 @@ header img{
 
 #beneficios h2 strong{
     color:#000038;
-
 }
+/*pregunta y testimonio titulo*/
+
+
 #info {
     background-color: #000038;
-    padding: 90 auto  ;
     color: #FFF;
     position: relative;
 }
@@ -141,6 +150,8 @@ header img{
     font-size: 35px;
     width: 100%
 }
+
+/*termina Formulario*/
 
 #personas h3{
     color: #FFF;
@@ -265,6 +276,10 @@ img{
         font-size: 20px; 
     }
 
+    .container{
+        padding: 2em .0em;
+    }
+
     #testimonios h2{
         font-size: 80px;
     }
@@ -274,7 +289,8 @@ img{
     }
 
     #descripcion p{
-        font-size: 3vw;
+        font-size: 4vw;
+        margin: 17px;
     }
 
     #descripcion {
@@ -295,6 +311,10 @@ img{
 
     }
 
+    #formulario h1{
+        font-size: 80px;
+    }
+
     .cajita{
         align-content: center;
     }
@@ -305,7 +325,7 @@ img{
         } 
     footer img {
         width: 10%;
-    }   
+    } 
     /*Aqui terminan todos los estilos para tablet*/
 }
 
