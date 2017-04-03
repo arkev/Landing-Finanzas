@@ -18,11 +18,13 @@ body {
     max-width: 1140px;
     display: block;
     margin: 0 auto;
+    padding: 2em 0em;
 }
 
+
 .row {
-    margin-right:0;
-   
+    margin-right:0 ;
+    margin-left: 0;   
 }
 /*header*/
 
@@ -31,15 +33,17 @@ header img{
     width: 90%;
     max-width: 420px;
 }
+}
 
 /*header*/
 
 
 /*titulo*/
-#titulo {
-    background: #000033 url(../images/patron-14.png);
+
+section #titulo {
     background-size: 400px auto;
     text-align: center;
+
 }
 
 #titulo h1 {
@@ -48,8 +52,8 @@ header img{
     font-size: 32px;
     margin: 1.5em auto 1em;
     display: inline-block;
-    line-height: 1.2em;.
-   
+    line-height: 1.2em;
+    text-align: center;
 }
 
 #titulo h1 strong {
@@ -63,7 +67,7 @@ header img{
     border-radius: 35px;
     font-size: 20px;
     padding: .8em 2em;
-    margin-bottom: 2.3em;
+    margin-bottom: 2em;
 }
 /*titulo*/
 
@@ -85,8 +89,8 @@ header img{
     display: flex;
     background: rgba(0,0,56, 0.5);
     height: 45%;
-    padding:9px;
-    font-size: 5vw;
+    padding:5vw;
+    font-size: 20px;
 }
 /*descripción*/
 
@@ -117,6 +121,7 @@ header img{
     background-color: #000038;
     color: #FFF;
     position: relative;
+    padding: 2em;
 }
 #info h3{
     text-align: center;
@@ -263,6 +268,19 @@ img{
     text-align:center;
 }
 
+}
+
+
+@media only screen and (min-width:600px){
+
+    #descripcion p{
+        font-size: 28px;}
+
+ #cajita img{
+        width: 15%;
+    } 
+
+}
 
 
 @media only screen and (min-width:768px) {
@@ -289,8 +307,8 @@ img{
     }
 
     #descripcion p{
-        font-size: 4vw;
-        margin: 17px;
+        font-size: 30px;
+        
     }
 
     #descripcion {
@@ -312,7 +330,7 @@ img{
     }
 
     #formulario h1{
-        font-size: 80px;
+        font-size: 62px;
     }
 
     .cajita{
@@ -323,10 +341,17 @@ img{
         margin: 2em 10em;
         padding: .8em 8em;
         } 
+
     footer img {
         width: 10%;
     } 
     /*Aqui terminan todos los estilos para tablet*/
+}
+
+@media only screen and (min-width:800px) {
+
+    #descripcion p{
+        font-size: 30px;}
 }
 
 @media only screen and (min-width:1024px) {
@@ -349,7 +374,7 @@ img{
     } 
 
     #descripcion p {
-        font-size: 3vw;
+        font-size: 34px;
         } 
      #descripcion {
         height: 68vh;
@@ -360,8 +385,8 @@ img{
     }
 
     #cuadro {
-        padding: ,8em 21,5em;
-        margin: 8em;
+        
+        margin: 0em 16em;
     }
     #img{
         margin: 30px auto;
@@ -376,7 +401,19 @@ img{
     #ejemplos{
         padding: 6em auto;
     }
+    
+    #cajita .box img{
+        width: 8%;
+    }
 
+    #anuncio{
+        font-size: 25px;
+    }
  
 }
 /*Aqui terminan todos los estilos para laptop*/
+
+@media only screen and (min-width: 48em){
+.container {
+    width: 100%;
+}
