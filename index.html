@@ -20,12 +20,19 @@
 
 <body>
     <!--Aquí inicia tu código-->
-    <header class="container">
-        <div class="row middle-xs">
-            <div class="col-xs-12 col-sm-6 center-xs start-sm"> <img src="images/um.svg" class="box"> </div>
-            <div class="col-xs-12 col-sm-6 center-xs end-sm"> <img src="images/umvirtual.svg" class="box"> </div>
+    <header class="row between-xs middle-xs">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 center-xs start-sm"> 
+                <div class="box">
+                <img src="images/um.svg" class="box"> 
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 center-xs end-sm"> 
+            <div class="box" >
+                <img src="images/umvirtual.svg" class="box"> 
+            </div>
         </div>
     </header>
+    
     <!--Título-->
     <section id="titulo">
         <section class="container">
@@ -33,6 +40,8 @@
             <button>Quiero saber más</button>
         </section>
     </section>
+    <!--/Título-->
+    
     <!--Descripción-->
     <section id="descripcion">
         <section id="letras">
@@ -42,13 +51,17 @@
                 </div>
             </div>
         </section>
-
         </section>
+    <!--/Descripción-->
+    
     <!--Beneficios-->
     <section id="beneficios">
         <h2>¿Por qué estudiar en <strong>UMvirtual?</strong></h2>
-            <div class="bolita"></div>
+            <div class="bolita azulMarino"></div>
         </section>
+    <!--/Beneficios-->
+    
+        <!--info-->
         <section id= "info">
         <div class="container">
         <div class="row center-xs">
@@ -90,13 +103,19 @@
                 </div>
             </div>
         </div>
+        <div class="bolita azulCielo"></div>
     </section>
-
+    <!--info-->
+    
     <!--Testimonios-->
     <section id="testimonios">
         <h2>Testimonios</h2>
-        <div class="circulo"></div>
-        <section id=ejemplos>
+        <div class="bolita blanca"></div>
+    </section>
+    <!--/Testimonios-->
+        
+        <!--Ejemplos-->
+        <section id="ejemplos">
         <div class="container">
         <div class="row center-xs">
             <div class="col-xs-12 col-sm-8">
@@ -138,40 +157,30 @@
             </div>
             </div>
             </div>
+            <div class="bolita azulCielo"></div>
             </section>
-
-
+            <!--Ejemplos-->
     
-    <!--Fomulario-->
-        <div class="row center-xs">
-            <div class="redondo"></div>
-            <div class="col-xs-12 ">
-                <div class="box">
-                <section id="formulario">
-                 <div class="circulo"></div>
-                    <h2>¿Te interesa? </h2>
-                    <h3>¡Queremos saber de ti!</h3> </div>
-            </div>
+        <!--Fomulario-->
+        <section id="formulario">
+                    <h1>¿Te interesa? </h1>
+                    <h2>¡Queremos saber de ti!</h2>
             <form>
                 <div class="center">
                 <section id="cuadro">
-                    <div class="col-xs-12">
-                        <div class="box">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="box">
-                                    <section id="dato">
-                                        <label for="Nombre"> Nombre </label>
-                                    </section>
+                            <div class="row" id="cajita">
+                                <div class="col-xs-12 col-sm-8">
+                                    <div class="box"></div>
+                                    <section class="row">
+                                    <div class="col-xs-12">
+                                        <div class="box">
+                                        <section id="dato">
+                                            <label for="Nombre"> Nombre </label>
+                                        </section>
                                         <section id="relleno"> 
-                                        <input name="Nombre" type="text" placeholder="Nombre completo" required> 
+                                            <input name="Nombre" type="text" placeholder="Nombre completo" required> 
                                         </section>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="box">
-                                <div class="row">
-                                    <div class="col-xs-12">
                                         <div class="box">
                                         <section id="dato">
                                             <label for="Correo"> Correo </label>
@@ -180,11 +189,6 @@
                                             <input name="Correo" type="email" placeholder="Correo electrónico" required>
                                         </section>
                                          </div>
-                                    </div>
-                                </div>
-                                <div class="box">
-                                    <div class="row">
-                                        <div class="col-xs-12">
                                             <div class="box">
                                             <section id="dato">
                                                 <label for="Telefono"> Teléfono </label>
@@ -192,34 +196,35 @@
                                             <section id="relleno">
                                                 <input name="Teléfono" type="tel" placeholder="Celular o fijo" required> 
                                             <section id="relleno">
-                                                </div>
-
-                                        </div>
+                                            </div>
+                                    </div>
+                                    </section>
                                     </div>
                                     <section id=clic>
-                                     <div class="bolita"></div>
-                                        <button type="submit">Quiero saber más</button>
-                                    </section>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                 </form>
+                                        <button>Quiero saber más</button>
+                                     </section>
+                </section>
+            </form>
                 <section id="anuncio">
-            <spam>Atención:</spam> <strong>No contiene SPAM,</strong> <p>sólo información de la maestria , puedes darte de baja cuando desees.</p> 
+            <spam>Atención:</spam> <strong>No contiene SPAM.</strong> 
+            <p> Sólo información de la maestria, puedes darte de baja cuando desees.</p> 
             </section>
-    </section>
-
+        </section>
+        <!--/Fomulario-->
+                    
     <!--Footer-->
     <footer class="row center-xs">
         <div class="col-xs-12">
-            <div class="box">
+            <div class="box"  id="cajita">
                 <p>Copyright © 2012 - 2016 Universidad de Montemorelos, todos los derechos reservados.</p>
                 <a href="https://twitter.com/UMVirtual"> <img src="images/redessoci-13.svg"> </a>
                 <a href="https://www.facebook.com/umvirtual"> <img src="images/redessoci-12.svg"> </a>
+                </div>
             </div>
         </div>
     </footer>
+    <!--/Footer-->
+    
     <!--Aquí termina tu código-->
 </body>
 
