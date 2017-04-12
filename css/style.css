@@ -93,7 +93,7 @@ header img{
     text-align: center;
     font-family: 'ArchivoNarrowBold', Arial, sans-serif;
     color: #FFF;    
-    font-size: 50px;
+    font-size: 45px;
     margin: 70px auto;
     display: inline-block;
     line-height: 1.3em;
@@ -155,24 +155,28 @@ header img{
 
 /*empeiza personas*/
 #ejemplos img{
-    margin-right: 13em;
+    margin-right: 15em;
     width: 30%;
+    border-radius: 100%;
+    padding: .8em 0em;
 }
 
 #personas h3{
     color: #FFF;
     font-size: 20px;
-    margin-left: 7em;
+    margin-left: 4em;
     margin-top: -2.5em;
 }
 #personas h4{
-    font-size: 18px
+    font-size: 13px;
+    margin-left: 8em;
+    margin-top: 1em;
 
 }
 #personas {
     background-color: #000038;
     color: #FFF;
-    border-radius: 20px;
+    border-radius: 45px;
     font-size: 14px;
     padding: .8em 2em;
     margin: 5px;
@@ -292,18 +296,9 @@ footer img {
     padding: .5em 0em;
 }
 
-#ejemplos img{
-    margin-right: 13em;
-    width: 25%;
-}
 /*termina mobil*/
 
 /*empeizan estilos*/
-
-@media only screen and (min-width: 48em){
-.container {
-    width: 100%;}
-}
 
 @media only screen and (min-width:600px){
 
@@ -327,6 +322,8 @@ img{
 
 @media only screen and (min-width:768px) {
 
+    .container {
+    width: 100%;}
     /*titulos container y testimonios*/
 
     #titulo h1{
@@ -404,11 +401,6 @@ img{
 @media only screen and (min-width:800px) {
 
 
-    }
-
-    #descripcion p{
-        font-size: 30px;}
-}
 
 @media only screen and (min-width:1024px) {
     /*Aqui van todos los estilos para laptop*/
