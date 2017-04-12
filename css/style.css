@@ -190,8 +190,8 @@ header img{
     color: #FFF;
     border: 0;
     border-radius: 35px;
-    font-size: 17px;
-    margin: 35px;
+    font-size: 19px;
+    margin: 20px;
     
 }
 
@@ -199,7 +199,7 @@ header img{
     text-align: center;
 }
 
-#dato {
+.dato {
     color:#FFF;
     display:inline-flex;
     padding-left: .2em .2em;
@@ -229,12 +229,13 @@ header img{
     border-radius: 20px;
     font-size: 16px;
     padding: 3vw 16vw;
-    margin: 1em 3em;
+    margin: 1em 2em;
     align-items: center;
+    width: 85%;
 
 }
 
-#relleno {
+.relleno {
     padding: 2em,
 
 }
@@ -285,7 +286,7 @@ img{
 footer {
         background-color: #000038;
         position: relative;
-        padding: 1px;
+        padding: 20px 0px 0px;
     }
 
 footer img {
