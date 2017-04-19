@@ -73,7 +73,6 @@ header img{
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }
 
 #descripcion p{
@@ -83,6 +82,15 @@ header img{
     padding:8vw;
     font-size: 25px;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 667px) and (-webkit-min-device-pixel-ratio: 2) {
+ /* STYLES GO HERE */
+ #descripcion {
+    background: url(../images/bkg-finanzas-retina.jpg);
+    background-size: cover;
+}
+}
+
 
 /*pregunta y testimonio titulo*/
 #beneficios, #testimonios {
@@ -149,28 +157,35 @@ header img{
     font-size: 35px;
     width: 100%
 }
+#clic {
+    padding-left: 13vw;
+}
 
 /*termina Formulario*/
 
 
 /*empeiza personas*/
 #ejemplos img{
-    margin-right: 15em;
-    width: 30%;
+    margin-right: 50vw;
+    width: 20vw;
+    height: 20vw;
+    max-width: 150px;
+    max-height: 150px;
     border-radius: 100%;
     padding: .8em 0em;
+    object-fit: cover;
 }
 
 #personas h3{
     color: #FFF;
     font-size: 20px;
+    margin-top: -4em;
     margin-left: 4em;
-    margin-top: -2.5em;
 }
 #personas h4{
-    font-size: 13px;
-    margin-left: 8em;
-    margin-top: 1em;
+    font-size: 12px;
+    margin-top: -1em;
+    margin-left: 10em;
 
 }
 #personas {
@@ -202,8 +217,8 @@ header img{
 .dato {
     color:#FFF;
     display:inline-flex;
-    padding-left: .2em .2em;
-    position: center;
+    padding-left: .2em;
+    position:relative;
 
 }
 
@@ -228,22 +243,22 @@ header img{
     border: 0;
     border-radius: 20px;
     font-size: 16px;
-    padding: 3vw 16vw;
-    margin: 1em 2em;
+    padding: 3vw 11vw;
+    margin: 1em .9em;
     align-items: center;
-    width: 85%;
 
 }
 
-.relleno {
-    padding: 2em,
 
+.relleno {
+    padding:0em;
 }
 
 .box p{
     margin: .2em;
     font-size: 16px;
     color: #fff;
+    padding-top: 4vw;
 }
 
 /*empieza bolita*/
@@ -261,10 +276,9 @@ header img{
     max-width: 130px;
     max-height: 130px;
 }
-img{
+#info img{
     width: 35%
 }
-
 .azulMarino{
     background-color:#000038;
 }
@@ -304,18 +318,24 @@ footer img {
 @media only screen and (min-width:600px){
 
 #descripcion p{
-        font-size: 28px;}
+        font-size: 26px;}
 
 #cajita img{
         width: 15%;}
 
 #clic button{
-        padding: 3vw 3vw;
-        margin: 3vw 30vw; } 
+        padding: 2vw 10vw;
+        margin: 1em 6em; 
+   }
+   
+#testimonios h2{
+    font-size: 55px;
+}  
 
 img{
     width: 23%;}
 }
+
 /*termina estilos*/
 
 
@@ -325,14 +345,16 @@ img{
 
     .container {
     width: 100%;}
-    /*titulos container y testimonios*/
+    
 
     #titulo h1{
         font-size: 45px;
     }
     
     #titulo button {
-        font-size: 20px; 
+        font-size: 20px;
+        margin-left: 14em;
+        padding-left: 1.5em; 
     }
 
     .container{
@@ -347,11 +369,10 @@ img{
         padding: 2em;
     }
 
-   /*titulos container y testimonios*/
 
 #descripcion p{
         font-size: 30px;
-        /*margin: 17px;*/
+        
     }
 
     #descripcion {
@@ -363,9 +384,9 @@ img{
     }
     
     .box p{
-        padding: 1em;
+        padding: 0em;
+        font-size: 18px;
        } 
-
 
     .img{
         width: 10%;
@@ -401,6 +422,38 @@ img{
 
 @media only screen and (min-width:800px) {
 
+    img{
+        width: 18%
+    }
+
+    #cuadro{
+        font-size: 17px;
+    }
+
+    #info h3{
+        font-size: 23px;
+    }
+
+    .box p{
+        padding: 0em;
+        font-size: 18px;
+    }
+    #clic button{
+        padding: .8vw 4vw;
+        margin: 2vw;
+    }
+    .dato{
+        padding-left: .2em;
+    }
+
+    .relleno {
+    padding: .3em 0em;
+    }
+
+    #cajita img{
+        width: 10%
+    }
+}
 
 
 @media only screen and (min-width:1024px) {
