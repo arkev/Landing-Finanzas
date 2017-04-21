@@ -186,7 +186,6 @@ header img{
     font-size: 12px;
     margin-top: -1em;
     margin-left: 10em;
-
 }
 #personas {
     background-color: #000038;
@@ -197,6 +196,13 @@ header img{
     margin: 5px;
 }
 
+#icono img{
+    width: 4vw;
+    height: 4vw;
+    margin-right:12vw;
+    margin-top: -9em;
+    padding: 2em; 
+}
 /*termina personas*/
 
 #cuadro {
@@ -206,8 +212,7 @@ header img{
     border: 0;
     border-radius: 35px;
     font-size: 19px;
-    margin: 20px;
-    
+    margin: 20px;    
 }
 
 .row{
@@ -246,7 +251,6 @@ header img{
     padding: 3vw 11vw;
     margin: 1em .9em;
     align-items: center;
-
 }
 
 
@@ -295,6 +299,10 @@ header img{
 
 #cajita img{
         width: 15%;
+}
+
+.box {
+    margin-bottom: 1em;
 }
 
 footer {
