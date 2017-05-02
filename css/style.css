@@ -259,7 +259,6 @@ header img{
 }
 
 .box p{
-    margin: .2em;
     font-size: 16px;
     color: #fff;
     padding-top: 4vw;
@@ -365,12 +364,14 @@ img{
     
     #titulo button {
         font-size: 20px;
-        margin-left: 14em;
-        padding-left: 1.5em; 
     }
 
     .container{
         padding: 2em .0em;
+    }
+
+    #info img{
+        width: 27%
     }
 
     #testimonios h2{
@@ -384,6 +385,7 @@ img{
 
     #descripcion p{
         font-size: 30px;
+        padding: 6.9vw;
         
     }
 
@@ -438,6 +440,7 @@ img{
         width: 14vw;
         height: 14vw;
         padding: 0.8em 1em;
+        margin-right: 26vw;
     }
 
     #formulario h1{
@@ -494,7 +497,6 @@ img{
     }
 
     .box p{
-        padding: 0em;
         font-size: 18px;
     }
     #clic button{
@@ -519,7 +521,9 @@ img{
     /*Aqui van todos los estilos para laptop*/
 
     #titulo h1 {
-        font-size: 45px;
+        font-size: 52px;
+        margin: 0.5em auto;
+        padding-top: 2em;
     }
     #titulo button {
         font-size: 25px;
@@ -528,6 +532,7 @@ img{
 
     #beneficios h2 {
         font-size: 80px;
+        margin:88px auto;
     }
 
     #testimonios h2{
@@ -549,6 +554,10 @@ img{
         padding: 0em 16em;
     }
 
+    #info{
+        padding: 6em;
+    }
+
     #img{
         margin: 30px auto;
         width: 30%;
@@ -567,8 +576,38 @@ img{
         width: 8%;
     }
 
+    #cajita{
+        margin-left: 3.5em;
+    }
+
+    #anuncio p{
+        margin: 0.4em;
+        padding: 0em;
+    }
     #anuncio{
-        font-size: 25px;
+        font-size: 33px;
+        padding-bottom: 3em;
+    }
+    #anuncio spam{
+        font-size: 33px;
+    }
+
+    #cuadro{
+        padding: 1em 1em;
+        margin:1em 13em;
+        font-size: 22px;
+    }
+    #clic{
+        margin-left: 7.7vw;
+    }
+
+    #clic button{
+        padding:1vw 6vw;
+        margin: 1vw;
+    }
+
+    #copy p{
+        font-size: 29px;
     }
  
 }
