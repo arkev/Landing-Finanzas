@@ -65,7 +65,7 @@ header img{
 }
 
 #descripcion {
-    background: url(../images/bkg-finanzas-retina.jpg)fixed;
+    background: url(../images/bkg-finanzas-retina.jpg);
     background-size: cover;
     height: 68vh;
     color:#FFF;
@@ -378,11 +378,6 @@ img{
         font-size: 80px;
     }
 
-    #testimonios{
-        padding: 2em;
-    }
-
-
     #descripcion p{
         font-size: 30px;
         padding: 6.9vw;
@@ -399,7 +394,6 @@ img{
     
     .box p{
         padding: 0em;
-        font-size: 18px;
        } 
 
     .img{
