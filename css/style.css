@@ -401,17 +401,20 @@ img{
     }
 
     .personas{
-        padding: 3em 0.6em;
-        margin: 4px;
+        padding: 3em 1em;
+        margin: 5px;
+        max-height: 12em;
     }
 
     .personas h3{
-        font-size: 30px;
-        margin-top: -5em;
+        font-size: 25px;
+        margin-top: -4em;
+        text-align: left;
     }
 
     .personas h4{
-        font-size: 19px;
+        font-size: 16px;
+        text-align: left;
     }
 
     .personas p{
@@ -431,10 +434,10 @@ img{
     }
 
     #ejemplos img{
-        width: 14vw;
-        height: 14vw;
-        padding: 0.8em 1em;
-        margin-right: 26vw;
+        width: 12vw;
+        height: 12vw;
+        margin-right: 24vw;
+        margin-top: -2em;
     }
 
     #formulario h1{
@@ -470,7 +473,12 @@ img{
 
     footer img {
         width: 10%;
-    }  
+    } 
+
+    .personas.gps img{
+        width: 3vw;
+        height: 3vw;
+    } 
 }
     /*Aqui terminan todos los estilos para tablet*/
 
@@ -524,19 +532,35 @@ img{
         margin-bottom: 8em;
     }
 
+    .bolita{
+        width: 8vw;
+        height: 8vw;
+    }
     #beneficios h2 {
         font-size: 80px;
-        margin:88px auto;
+        margin:112px auto;
     }
 
     #testimonios h2{
         font-size: 90px;
+        margin: 83px auto;
+    }
+
+    .personas h3{
+        font-size: 28px;
+        margin-left: 4.5em;
     } 
+
+    #ejemplos img{
+        margin-right: 30vw;
+    }
 
     #descripcion p {
         font-size: 34px;
+        margin: 1em;
         } 
-     #descripcion {
+
+    #descripcion {
         height: 68vh;
     }
     #formulario h3{
@@ -557,15 +581,31 @@ img{
         width: 30%;
         max-width: 120px;
     }
+    #info h3{
+        font-size: 24px;
+    }
+
+    .box p{
+        font-size: 19px;
+    }
 
     #info .box img  {
-    width: 29%;
+    width: 39%;
     }
 
     #ejemplos{
-        padding: 6em auto;
+        padding: 6em;
+    }
+
+    #formulario h1{
+        font-size: 73px;
     }
     
+    #formulario h2{
+        font-size: 36px;
+        margin-top: -1em;
+    }
+
     #cajita .box img{
         width: 8%;
     }
@@ -579,29 +619,33 @@ img{
         padding: 0em;
     }
     #anuncio{
-        font-size: 33px;
+        font-size: 22px;
         padding-bottom: 3em;
     }
     #anuncio spam{
-        font-size: 33px;
+        font-size: 28px;
     }
 
     #cuadro{
         padding: 1em 1em;
-        margin:1em 13em;
+        margin:1em 19em;
         font-size: 22px;
     }
     #clic{
-        margin-left: 7.7vw;
+        margin-left: 3em;
     }
 
     #clic button{
         padding:1vw 6vw;
-        margin: 1vw;
+        margin: 0vw;
     }
 
     #copy p{
-        font-size: 29px;
+        font-size: 19px;
+    }
+
+    footer img{
+        width: 6%;
     }
  
 }
