@@ -47,6 +47,7 @@ header img{
     margin: 1.5em auto 1em;
     display: inline-block;
     line-height: 1.2em;.
+    
    
 }
 
@@ -90,14 +91,12 @@ header img{
     background-size: cover;
 }
 }
-
-
 /*pregunta y testimonio titulo*/
-#beneficios, #testimonios {
+#beneficios,{
     position: relative;
 }  
 
-#beneficios h2, #testimonios h2{
+#beneficios h2,{
     text-align: center;
     font-family: 'ArchivoNarrowBold', Arial, sans-serif;
     color: #FFF;    
@@ -136,9 +135,60 @@ header img{
     position: relative;
     padding: 1em;
     padding-bottom: 60px;
-
 }
-/*Informació y Ejemplo*/
+
+.personas{
+    background-color: #000038;
+    padding: 1em .1em;
+    color: #FFF;
+    border: 0;
+    border-radius: 35px;
+    font-size: 19px;   
+    text-align: left; 
+}
+
+/*NO BORRAR ARRIBA Y ABAJO*/
+.personas .avatar{
+    width: 20vw;
+    height: 20vw;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 100%;
+    padding: .8em 0em;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.personas h3{
+    font-size: 29px;
+    margin:0;
+    display: inline-block;
+    width: 70%
+}
+.pin{
+    width: 5%;
+    display: inline-block;
+}
+
+.personas h4{
+    font-size: 15px;
+    display: inline-block;
+    width: 43%
+    
+}
+
+.personas p{
+    font-size: 16px;
+    color: #fff;
+    padding-top: 4vw;
+    margin:9px;
+    max-width: 20em;
+}
+.inline{
+    display:inline-block;
+}
+
+/*NO BORRAR FINAL */
 
 /*empieza Formulario*/ 
 
@@ -164,45 +214,6 @@ header img{
 /*termina Formulario*/
 
 
-/*empeiza personas*/
-#ejemplos img{
-    margin-right: 50vw;
-    width: 20vw;
-    height: 20vw;
-    max-width: 100px;
-    max-height: 100px;
-    border-radius: 100%;
-    padding: .8em 0em;
-    object-fit: cover;
-}
-
-.personas h3{
-    color: #FFF;
-    font-size: 18px;
-    margin-top: -4em;
-    margin-left: 4.5em;
-}
-.personas h4{
-    font-size: 11px;
-    margin-top: -1em;
-    margin-left: 9em;
-}
-
-.personas {
-    background-color: #000038;
-    color: #FFF;
-    border-radius: 45px;
-    padding: 1em .6em;
-    margin: 5px;
-}
-
-.icono {
-    width: 4vw;
-    height: 4vw;
-    margin-right:17vw;
-    margin-top: -4em;
-    padding: 2.2em; 
-}
 /*termina personas*/
 
 #cuadro {
@@ -258,11 +269,6 @@ header img{
     padding:0em;
 }
 
-.box p{
-    font-size: 16px;
-    color: #fff;
-    padding-top: 4vw;
-}
 
 /*empieza bolita*/
 
@@ -400,44 +406,12 @@ img{
         width: 10%;
     }
 
-    .personas{
-        padding: 3em 1em;
-        margin: 5px;
-        max-height: 12em;
-    }
-
-    .personas h3{
-        font-size: 25px;
-        margin-top: -4em;
-        text-align: left;
-    }
-
-    .personas h4{
-        font-size: 16px;
-        text-align: left;
-    }
-
-    .personas p{
-        padding-top: 3em;
-        font-size: 18px;
-    }
 
     .icono img{
         width: 4vw;
         height: 4vw;
         /*margin-right: 8vw;
         margin-top: -7em;*/
-    }
-
-    #personas p{
-        padding: 3em 0em;
-    }
-
-    #ejemplos img{
-        width: 12vw;
-        height: 12vw;
-        margin-right: 24vw;
-        margin-top: -2em;
     }
 
     #formulario h1{
@@ -473,11 +447,6 @@ img{
 
     footer img {
         width: 10%;
-    } 
-
-    .personas.gps img{
-        width: 3vw;
-        height: 3vw;
     } 
 }
     /*Aqui terminan todos los estilos para tablet*/
@@ -546,14 +515,6 @@ img{
         margin: 83px auto;
     }
 
-    .personas h3{
-        font-size: 28px;
-        margin-left: 4.5em;
-    } 
-
-    #ejemplos img{
-        margin-right: 30vw;
-    }
 
     #descripcion p {
         font-size: 34px;
@@ -591,10 +552,6 @@ img{
 
     #info .box img  {
     width: 39%;
-    }
-
-    #ejemplos{
-        padding: 6em;
     }
 
     #formulario h1{
