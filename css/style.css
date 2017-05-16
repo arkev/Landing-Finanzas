@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
     font-family: 'ArchivoNarrowBold';
     src: url(../fonts/ArchivoNarrow-Bold.otf);
 }
@@ -26,7 +26,6 @@ body {
     margin-left: 0;
    
 }
-
 header img{
     margin: 4px auto;
     width: 90%;
@@ -229,7 +228,7 @@ header img{
     width: 100%
 }
 #clic {
-    padding-left: 13vw;
+    margin: 0 auto;
 }
 
 /*termina Formulario*/
@@ -281,7 +280,7 @@ header img{
     border-radius: 20px;
     font-size: 16px;
     padding: 3vw 15vw;
-    margin: .5em .1em;
+    margin: 3vw auto;
     align-items: center;
 }
 
@@ -322,6 +321,7 @@ header img{
 
 #cajita{
     text-align:center;
+    margin: auto;;
 }
 
 #cajita img{
@@ -350,35 +350,6 @@ footer img {
     color:#FFF;
 }
 
-/*termina mobil*/
-
-/*empeizan estilos*/
-
-/*@media only screen and (min-width:600px){
-
-#descripcion p{
-        font-size: 26px;}
-
-#cajita img{
-        width: 15%;}
-
-#clic button{
-        padding: 2vw 10vw;
-        margin: 1em 6em; 
-   }
-   
-#testimonios h2{
-    font-size: 55px;
-}  
-
-img{
-    width: 23%;}
-}
-
-/*termina estilos*/
-
-
- /*Aqui van todos los estilos para tablet*/
 
 @media only screen and (min-width:768px) {
 
@@ -440,7 +411,7 @@ img{
     
     #cajita{
         align-content: center;
-        margin-left: 4em;
+        margin-left: auto;
     }
 
     #cuadro
@@ -458,11 +429,11 @@ img{
 
     #clic{
         padding: 0em;
-        margin-left:7em;
     }
 
     #clic button{
-        padding: 2vw 4vw;
+        padding: 2vw 8vw;
+        margin-left: auto;
     }
 
     footer img {
@@ -470,42 +441,6 @@ img{
     } 
 }
     /*Aqui terminan todos los estilos para tablet*/
-
-
-
-@media only screen and (min-width:800px) {
-
-    img{
-        width: 18%
-    }
-
-    #cuadro{
-        font-size: 17px;
-    }
-
-    #info h3{
-        font-size: 23px;
-    }
-
-    .box p{
-        font-size: 18px;
-    }
-    #clic button{
-        padding: .8vw 4vw;
-        margin: 2vw;
-    }
-    .dato{
-        padding-left: .2em;
-    }
-
-    .relleno {
-    padding: .3em 0em;
-    }
-
-    #cajita img{
-        width: 10%
-    }
-}
 
 
 @media only screen and (min-width:1024px) {
@@ -579,19 +514,7 @@ img{
     }
     
     #formulario h2{
-        font-size: 36px;
-        margin-top: -1em;
-    }
-
-    #cajita .box img{
-        width: 8%;
-    }
-
-    #cajita{
-        margin-left: 3.3em;
-    }
-
-    #anuncio p{
+        font-size: 36px;       
         margin: 0.4em;
         padding: 0em;
     }
@@ -605,12 +528,16 @@ img{
     }
 
     #cuadro{
-        margin:0em 20em;
+        margin:0vw 29vw;
         font-size: 22px;
     }
 
+    #cajita{
+        margin-left: auto;
+    }
+
     #clic{
-        margin-left: 3.2em;
+        padding: 0em;
     }
 
     #clic button{
